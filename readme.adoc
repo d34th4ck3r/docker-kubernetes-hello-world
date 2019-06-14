@@ -71,7 +71,7 @@ kubectl apply -f deployment.yaml
 === Test Application
 
 ```
-minikube service hello-world-service --url
+curl `minikube service hello-world-service --url`
 ```
 
 === Delete Deployment
